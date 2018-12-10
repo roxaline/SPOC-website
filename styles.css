@@ -1,0 +1,126 @@
+body{
+  font-family:"Times New Roman", Times, serif;
+  background-repeat:no-repeat;
+  padding:0;
+  margin:0;
+}
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+     background-color:lightpink;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#main{
+  display:flex;
+  font-weight:bold;
+}
+ul > li{
+  display:inline-block;
+}
+
+nav{
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 10px 0;
+   margin-right: 0%;
+ }
+nav>ul{
+  text-align:right;
+}
+
+nav>ul>li>a{
+padding: 18px;
+margin-right: 0;
+text-transform: uppercase;
+text-decoration: none;
+display: block;
+color:#330000;
+}
+nav>ul>li>a:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+background:  rgba(221, 109, 35, 0.678);
+color: silver;
+}
+  
+#headerA img{
+  width:100%;
+  height:300px;
+}
+h1{
+  background-color: lightpink;
+
+}
+h2{
+  background-color:rgba(128,128,128,0.5);
+  padding:0;
+  margin:0;
+  box-shadow:3px 3px 5px red;
+  opacity:2;
+}
+h3{
+  background-color:rgba(128,128,128,0.4);
+ padding:0;
+  margin:0;
+  box-shadow:1px 1px 3px red;
+}
+h4{
+  box-shadow:3px 3px 5px black;
+  border-b0:2px white;
+}
+ul{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  float:right;
+}
+table{
+  border-collapse:collapse;
+}
+table,th,td{
+  border:3px solid black;
+  padding:18px;
+}
+th{ color:white;
+  background-color: #6c6772;
+}
+.about{
+  background-image:url("http://www.technocrazed.com/wp-content/uploads/2015/12/HD-purple-wallpaper-image-to-use-as-background-132.jpg");
+  background-size:no-repeat;
+}
+.about img{
+  width:100%;
+  height:100%;
+}
+
+#glbfooter{
+  position:fixed;
+  font-weight:bold;
+}
+.description{
+  background-color:pink;
+  position: absolute;
+    background-size:cover;
+    justify-content:space-between;
+}
+.command{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:5;
+}
+/*#main{*/
+/*  flex-wrap:no-wrap;*/
+/*}*/
+#services img{
+   width:100%;
+  height:300px;
+}
